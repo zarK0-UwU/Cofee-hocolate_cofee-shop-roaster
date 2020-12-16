@@ -6,14 +6,17 @@ body {
 }
 .header {
   background-color: rgb(43, 43, 43);
-  height: 50px;
+  height: 60px;
 }
 .header:only-child{
   border: 0;
   margin: 0;
   padding: 0;
-  top 0
+  top: 0;
 }
 .header > img {
-height: 30 px;
+  margin: 0 3%;
+  top: 10%;
+  height: 80%;
+  position: relative;
 }
