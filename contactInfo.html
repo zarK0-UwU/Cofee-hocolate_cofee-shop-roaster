@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="styles/slickConfig.css">
 	<link rel="stylesheet" href="styles/style.css">
 	<link rel="stylesheet" href="styles/form.css">
+	<link rel="stylesheet" href="styles/contactInfo.css">
 
 	<link rel="shortcut icon" href="media/CafChoc-coin.png" type="image/x-icon">
     <title>Contacto | Café-Chocolate - café n´ games ᓚᘏᗢ</title>
@@ -26,30 +27,50 @@
 				<a href="AboutUs.html">Quienes somos?</a>
 			</div>
 		</div>
-		<div class="content" style="display: flex; flex-direction: row; justify-content: space-evenly;">
+		<div class="content" >
 			<div class="contactForm">
-				<form action="action_page.php">
-			  
-				  <label for="fname">First Name</label>
-				  <input type="text" id="fname" name="firstname" placeholder="Your name..">
-			  
-				  <label for="lname">Last Name</label>
-				  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-			  
-				  <label for="country">Country</label>
-				  <select id="country" name="country">
-					<option value="australia">Australia</option>
-					<option value="canada">Canada</option>
-					<option value="usa">USA</option>
-				  </select>
-			  
-				  <label for="subject">Subject</label>
-				  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-			  
-				  <input type="submit" value="Submit">
-			  
+				<h1 style="margin-left: 5% ;">Envianos un Email</h1>
+				<form action="">
+					<div class="form-top">
+						<div class="form-left">
+							<label for="fname">nombre</label>
+							<input type="text" id="fname" name="firstname" placeholder="nombre..">
+						
+							<label for="lname">apellidos</label>
+							<input type="text" id="lname" name="lastname" placeholder="apellidos..">
+		  
+							<label for="mail">apellidos</label>
+							<input type="email" id="mail" name="email" placeholder="yourEmail@example.com">
+						
+							<label for="gender">genero</label>
+							<select id="gender" name="gender">
+							  <option value="H">Hombre</option>
+							  <option value="M">Mujer</option>
+							  <option value="HAC">Helicoptero apache</option>
+							  <option value="N/A">Otro</option>
+							</select>
+						</div>
+						<div class="form-right">
+							<label for="subject">Mensaje</label>
+							<textarea id="subject" name="subject" placeholder="escribe un mensaje.." ></textarea>
+	
+						</div>
+					</div>
+					<div class="form-bottom">
+						<input type="submit" value="Submit" >
+
+					</div>			  
 				</form>
-			  </div> 
+			</div>
+			<div class="social">
+				<a href="contactInfo.html" class="footTitle"><img src="" alt="">O tambien puedes contactarnos a traves de nuestras redes sociales:</a>
+				<div class="social-items">
+					<a href="contactInfo.html" class="footContent"><img src="" alt="">Twitter</a>
+					<a href="contactInfo.html" class="footContent"><img src="" alt="">Instagram</a>
+				</div>
+
+
+			</div> 
 		</div>
 		<div class="footer">
 			<div class="footerColum">
@@ -59,7 +80,7 @@
                 <a href="contactInfo.html" class="footContent"><img src="" alt="">Email</a>
 				<div style="height: 25px;"></div>
 			</div>
-			<div class="footerColum"><!-- h1 and h2 should be modified to be button for final version -->
+			<div class="footerColum">
 				<a href="AboutUs.html" class="footTitle"><img src="" alt="">Sobre nosotros:</a>
 				<a href="AboutUs.html" class="footContent"><img src="" alt="">que es Café-Chocolate?</a>
 				<a href="AboutUs.html" class="footContent"><img src="" alt="">quienes somos?</a>
