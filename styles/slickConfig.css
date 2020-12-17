@@ -1,0 +1,42 @@
+.slideShow-mainPage{
+    display: flex;
+  
+  }
+  .slideShow-mainPage .items{
+    width: 100%;
+    height: 800px;
+    bottom: 0;
+    overflow-y: hidden;
+  }
+  .slideShow-mainPage .items img{
+    width: 100%;
+  }
+  .slick-next{
+    right: 25px;
+  }
+  .slick-prev{
+    left: 25px;
+    z-index: 1;/*this is a fix for the current slick version, should not be used in a fully working slick version(vers-used: 1.8.1)*/
+  }
+  .slick-prev::before, .slick-next::before {
+    font-size: 40px;
+
+  }
+  .slick-next, .slick-prev{
+    width: 40px;
+    height: 40px;
+  }
+  .slick-dots{
+    bottom: 25px;
+  }
+  .slick-dots li{
+    width: 40px;
+    height: 40px;
+  }
+  .slick-dots li button::before{
+    color: white;
+    font-size: 15px;
+  }
+  .slick-dots li.slick-active button::before{
+    color: white;
+  }
