@@ -1,1 +1,29 @@
-.
+.entry{
+    width: 80%;
+    max-width: 80%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px 10%;
+
+}
+.entry-title, .entry-content{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.entry-title{
+    color: #ec5454;
+    font-size: 30px;
+}
+.entry-content{
+    color: white;
+    font-size: 25px;
+}
+.entry-content p{
+    display: flex;
+    flex-wrap: wrap;
+}
