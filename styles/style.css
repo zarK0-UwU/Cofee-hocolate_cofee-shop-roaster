@@ -59,14 +59,26 @@ body {
 	text-decoration: none;
   	color: white;
 	font-size: 20px;
-	margin: 0 3%;
+	margin-right: 3%;
 
 }
-.header > .right > a:hover{
+.header > .right > a:hover{	
   	color: #ec5454;
-  	font-size: 20.5px;
-	margin: 0 3%;
+  	border-bottom: #ec5454 2px solid;
 }
+.header .right a img, svg{
+	height: 35px;
+	margin-right: 0px;
+}
+.header .right a svg{
+	color: white;
+	fill: white;
+}
+.header .right a svg:hover{
+	color: #ec5454;
+	fill: #ec5454;
+}
+
 
 /* content config */
 
