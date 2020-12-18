@@ -1,6 +1,5 @@
 .slideShow-mainPage{
     display: flex;
-  
   }
   .slideShow-mainPage .items{
     width: 100%;
@@ -40,3 +39,7 @@
   .slick-dots li.slick-active button::before{
     color: white;
   }
+  .slick-dotted.slick-slider{/* removes margin induced by script */
+    margin-bottom: 0;
+  }
+  
