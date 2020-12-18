@@ -20,6 +20,8 @@
     font-size: 30px;
 }
 .entry-content{
+    display: flex;
+    flex-direction: column;
     color: white;
     font-size: 25px;
 }
